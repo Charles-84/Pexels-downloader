@@ -11,7 +11,7 @@ Pexels Downloader is a Python script that allows you to easily download videos f
 ## Usage
 
 1. Get your Pexels API key by creating an account on [Pexels](https://www.pexels.com/api/).
-2. Open the `config.py` file and replace `YOUR_API_KEY_HERE` with your actual API key.
-3. Run the script: `python pexels_downloader.py --query "your search query"`
+2. Open the `config.py` file and replace `API_KEY` with your actual API key + replace 'WHAT_YOU_ARE_LOOKING_FOR' with your research.
+3. Run the script: `python main.py`
    - Replace "your search query" with your desired query. You can also modify the other optional parameters such as the number of videos to download and the output directory.
 4. The script will download the videos to the specified output directory.
